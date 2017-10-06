@@ -1,33 +1,59 @@
 #Change Log
 
-Team membership:  AB (Captain) & CD (Mate)  
-Team conventions: Allman notation, markdown for changelog  
+Team membership:  
 Changelog format: [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) 
 
-## *Version x.x*
+## *Version 1.0*
 
-Release Date: Jul 26, 2027
+Release Date: Oct 5, 2017
 
 ## New Components
 
 -   controllers
 
-    -   serbian (AB)
-    
+    -   Add info.php       (Hugh)
+
+-   view
+    -   Add home.php    (Hugh)
+    -   Add Fleet.php   (Hugh)
+    -   Add about.php   (Hugh)
+    -   Add Flight.php  (Hugh)
+    -   Add tamplate.php (Hugh)
+
+## Updated Components
+
+-   others
+    -   routes.php  (hugh)
+
+
+
+
+
+## *Version 1.1*
+
+## Description
+    -Try to load every views' content by using model. Right now, the home view can get the whole array from quote -model, but for other views, if I use get() function which inside quote.php, it will give me an error about -foreach() 
+
+## New Components
+-   models
+    -   quotes.php
+
 ## Updated Components
 
 -   controllers
-
-    -   german (CD)
-    -   hindi (CD)
-
+    -   info.php    (hugh)
+    -   MY_Controller.php   (hugh)
 -   models
 
-    -   italian (AB)
+
 
 -   views
+    -   home.php    (hugh)
+    -   fleet.php   (hugh)
+    -   flight.php  (hugh)
 
-    -   slovenian (AB)
-    -   swedish
 
+-   others
+    -   routes.php      (hugh)
+    -   autoload.php    (hugh)
 
